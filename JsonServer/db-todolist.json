@@ -7,13 +7,8 @@
     },
     {
       "title": "Lam bai tap ve nha",
-      "completed": false,
+      "completed": true,
       "id": 2
-    },
-    {
-      "title": "Di Nhau",
-      "completed": false,
-      "id": 3
     }
   ]
 }

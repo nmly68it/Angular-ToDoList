@@ -1,10 +1,10 @@
 export class Task {
 	public id : number;
 	public title : string;
-	public comleted : boolean;
+	public completed : boolean;
 
 	constructor(title : string){
 		this.title = title;
-		this.comleted = false;
+		this.completed = false;
 	}
 }

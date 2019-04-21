@@ -9,6 +9,8 @@
   <app-task-item
     *ngFor="let task of tasks"
     [task] = "task"
+    (taskStatusUpdated)="onUpdateStatus($event)"
+    (taskIdDeleted)="onDeleteTask($event)"
     ></app-task-item>
   <!-- End Item -->
 </div>
